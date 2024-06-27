@@ -51,7 +51,7 @@ nav a {
    }
 
   aside img {
-    width: 250px;
+    width: 200px;
     height: auto;
     border: 1px solid steelblue;
     box-shadow: 0 0 30px gray;
@@ -60,7 +60,7 @@ nav a {
    aside h2 {
     position: absolute;
     top: 47px;
-    left: 125px;
+    left: 110px;
 
    }
  
