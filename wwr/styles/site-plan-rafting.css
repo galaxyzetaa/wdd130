@@ -13,7 +13,7 @@
     --nav-hover-link-color: #3C8DDF;
     --nav-hover-background-color: #F8F8F8;
 
-    font-family : var(--Nanum-Gothic);
+    font-family : var(--Roboto);
     max-width : 960px;
     padding : 20px;
     h1, h2, h3, h4, h5, h6 {
@@ -28,7 +28,7 @@
         font-size: 18px;
         text-align: center;
     }
-    
+
     header { 
         padding: 20px;
         background-color: var(--#E88873);
