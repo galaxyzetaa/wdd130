@@ -2,10 +2,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbit&family=Roboto&display=swap);
 
 :root {
-    --primary: #094074;
-    --secondary: #F7EF81;
-    --accent1: #E88873;
-    --accent2: #F8F8F8;
+    --primary-color: #094074;
+    --secondary-color: #F7EF81;
+    --accent1-color: #E88873;
+    --accent2-color: #F8F8F8;
     --heading-font: "Roboto" sans;
     --paragraph-font: "Nanum-Gothic" sans;
     --nav-background-color: #F8F8F8;
@@ -20,6 +20,15 @@
     font-family: var(--Nanum-Gothic);
     color: var(--#094074);
     }
+
+    body {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 4em;
+        font-size: 18px;
+        text-align: center;
+    }
+    
     header { 
         padding: 20px;
         background-color: var(--#E88873);
