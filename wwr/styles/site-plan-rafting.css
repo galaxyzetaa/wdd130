@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Nanum+Gothic);
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbit&family=Roboto&display=swap);
 
 :root {
@@ -26,11 +26,5 @@
         color: var(--#094074);
         text-decoration: none;
         padding: 1rem;
-    }
-    nav a:link, nav a:visited {
-        color: var(--#094074);
-    }
-    nav a:hover {
-        color: var(--#3C8DDF);
     }
 }
