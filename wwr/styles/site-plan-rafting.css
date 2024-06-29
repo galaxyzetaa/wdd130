@@ -8,6 +8,7 @@
     --accent2-color: #F8F8F8;
     max-width : 960px;
     padding : 20px;
+}
 
     header { 
         padding: 20px;
@@ -26,5 +27,4 @@
         color: var(--#094074);
         text-decoration: none;
         padding: 1rem;
-    }
 }
