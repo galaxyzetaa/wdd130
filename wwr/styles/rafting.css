@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');:root {
+    --primary-color:  #094074;
+    --secondary-color: #F7EF81;
+    --accent1-color: #E88873;
+    --accent2-color: #F8F8F8;
+  
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Roboto', serif;
+  
+    --nav-background-color: #F8F8F8;
+    --nav-link-color: #094074;
+    --nav-hover-link-color: #3C8DDF;
+    --nav-hover-background-color: #F8F8F8;
+  }
+  header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+.center {
+    text-align: center;
+}
+h1{
+    font-family: var(--paragraph-font);
+    color: #094074;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{ 
+    font-family: var(--paragraph-font);
+    color: #094074;
+
+}
+h3{ 
+    font-family: var(--paragraph-font);
+    color: #094074;
+}
+h4{
+    font-family: var(--paragraph-font);
+    color: #094074;
+}
+p {
+    font-family: var(--heading-font);
+    color: black;
+
+}
+body{
+    background:#E88873;
+}
+
+hero.img{
+    display:block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    
+}
+header{
+    color: #094074;
+    display: grid;
+}
+    img {
+        color: #333;
+    }
+    h1{
+        color: rgb(121, 15, 15);
+    }
+    nav{
+    *{margin: 0; padding: 0};
+    #container {height: 100%; width:100%; font-size: 0};
+    #left, #middle, #right
+    
+    {display: inline-block; 
+    display: inline; zoom: 1; 
+    vertical-align: top; font-size: 12px};
+    #left {width: 25%; background: blue};
+    #middle {width: 50%; background: green};
+    #right {width: 25%; background: yellow};
+        
+    display{
+        grid-auto-rows: minmax(30px, auto);
+        text-align: center;
+        }
+    }
+history { 
+    color: #094074;
+    text-align: center;
+}
+adventure {
+    float: right; 
+    margin: 0px 0px 15px 15px;
+    
+}
+footer{
+    background:#F7EF81;
+}

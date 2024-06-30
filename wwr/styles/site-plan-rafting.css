@@ -1,56 +1,51 @@
-@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Orbit&family=Roboto&display=swap);
-
-:root {
-    --primary-color: #094074;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');:root {
+    --primary-color:  #094074;
     --secondary-color: #F7EF81;
     --accent1-color: #E88873;
     --accent2-color: #F8F8F8;
-    --heading-font: "Roboto" sans;
-    --paragraph-font: "Nanum-Gothic" sans;
+  
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Roboto', serif;
+  
     --nav-background-color: #F8F8F8;
     --nav-link-color: #094074;
     --nav-hover-link-color: #3C8DDF;
     --nav-hover-background-color: #F8F8F8;
-
-    font-family : var(--Roboto);
-    max-width : 960px;
-    padding : 20px;
-    h1, h2, h3, h4, h5, h6 {
-    font-family: var(--Nanum-Gothic);
-    color: var(--#094074);
-    }
-
-    body {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 4em;
-        font-size: 18px;
-        text-align: center;
-    }
-
-    header { 
-        padding: 20px;
-        background-color: var(--#E88873);
-    }
-    p { 
-        padding: 25px;
-    }
-    nav { 
-        background-color: var(--#F8F8F8);
-        font-size: 1.2rem;
-        display: flex;
-    }
-    nav a {
-        display: block;
-        color: var(--#094074);
-        text-decoration: none;
-        padding: 1rem;
-    }
-    nav a:link, nav a:visited {
-        color: var(--#094074);
-    }
-    nav a:hover {
-        color: var(--#3C8DDF);
-    }
+  }
+  body {
+    font-family: var(--paragraph-font);
+    margin: 10px;
+    padding: 5px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+p{
+    padding: 25px;
 }
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
