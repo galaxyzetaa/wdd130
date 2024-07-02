@@ -67,7 +67,7 @@ header img {
 
 .hero h1 {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 3rem;
@@ -75,18 +75,19 @@ header img {
 }
 
 .hero article {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
+    position: absolute;
+    top: 50%;
 }
 
 .hero article img {
     margin-right: 20px;
     border-radius: 50%;
+    width: 200px;
+    float: right;
 }
 
 /* Sections Styling */
