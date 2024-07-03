@@ -107,6 +107,24 @@ section img {
     border-radius: 10px;
 }
 
+figure {
+    margin: 10px;
+    text-align: center;
+}
+
+figure img {
+    width: 200px;
+    height: auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-style: italic;
+    color: var(--primary-color);
+}
+
 /* Footer Styling */
 footer {
     background-color: #004080;
