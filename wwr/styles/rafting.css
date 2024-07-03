@@ -23,10 +23,10 @@ body {
 
 /* Header Styling */
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    background-color: #004080;
+    background-color: var(--primary-color);
     padding: 10px 20px;
 }
 
@@ -39,6 +39,7 @@ header img {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: flex-end;
 }
 
 .navigation li {
@@ -49,6 +50,30 @@ header img {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    padding: 5px 10px;
+}
+
+.section-container {
+    padding: 5rem 1rem;
+    max-width: 840px;
+    margin: auto;
+    justify-content: flex-start;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--primary-color);
+    margin-bottom: 5rem;
+    text-align: center;
 }
 
 /* Hero Section Styling */
@@ -90,21 +115,50 @@ header img {
     float: right;
 }
 
-/* Sections Styling */
-section {
-    padding: 20px;
+.flexbox-container {
+    display: flex;
 }
 
-section h2 {
-    color: #004080;
-}
-
-section img {
+.flexbox-item {
     width: 200px;
-    height: auto;
     margin: 10px;
-    border: 2px solid #004080;
-    border-radius: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+    flex-grow: 2;
+    border-color: black;
+}
+
+.flexbox-item-1 p {
+    padding: 10px;
+}
+
+.flexbox-item-2 {
+    max-height: 280px;
+    background-color: steelblue;
+    border-color: black;
+    
+}
+
+.flexbox-item-2 h3 {
+    text-align: center;
+}
+
+.flexbox-item-2 p {
+    padding: 10px;
+}
+
+.flexbox-item-3 {
+    max-height: 300px;
+    flex-grow: 2;
+    border-color: black;
+}
+
+.flexbox-item-3 p {
+    padding: 10px;
 }
 
 figure {
@@ -123,6 +177,52 @@ figcaption {
     margin-top: 5px;
     font-style: italic;
     color: var(--primary-color);
+}
+
+.grid-container {
+    max-width: 840px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    padding: 8px;
+}
+
+.grid-items {
+    background-color: #dcebf8;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid-1{
+    grid-column: 2;
+    margin: 1rem;
+}
+aside {
+    width: 26rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grid-1 img, aside img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px gray;
+    float: left;
+    margin-right: 10px;
+}
+
+h2 {
+    color: steelblue;
 }
 
 /* Footer Styling */
