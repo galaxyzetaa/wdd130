@@ -78,11 +78,10 @@ button {
     width: 580px;
 }
 
-button:hover {
-    
+button:hover { 
     background-color: darkgreen;
-
 }
+
 footer {
     margin: 1rem auto 0;
     width: 650px;
@@ -91,8 +90,8 @@ footer {
     color: #777;
     border-top: 1px solid #ccc;
 }
-/* class declarations    */
 
+/* class declarations */
 .form-item {
     display: grid;
     align-items: center;
