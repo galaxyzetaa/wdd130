@@ -53,9 +53,14 @@ header img {
     padding: 5px 10px;
 }
 
+.navigation a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
 /* Main Content Styling */
 main {
-    max-width: 600px;
+    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: var(--accent2-color);
@@ -69,6 +74,18 @@ h1 {
     margin-bottom: 20px;
 }
 
+.company-info {
+    margin-bottom: 20px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+.map {
+    margin-bottom: 20px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -79,7 +96,7 @@ label {
     color: var(--primary-color);
 }
 
-input, textarea {
+input, textarea, select {
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid var(--primary-color);
@@ -101,12 +118,41 @@ button:hover {
     background-color: var(--accent1-color);
 }
 
+/* Employee Section Styling */
+.employees {
+    margin-top: 40px;
+}
+
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.employee-grid figure {
+    text-align: center;
+}
+
+.employee-grid img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
 /* Footer Styling */
 footer {
     background-color: #004080;
     color: white;
     text-align: center;
     padding: 10px 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: var(--accent1-color);
 }
 
 .sociallinks a {
