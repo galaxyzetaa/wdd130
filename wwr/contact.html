@@ -1,95 +1,115 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Us | Down The River Rafting Company</title>
-        <meta name="description" content="Get in touch with Down The River Rafting Company for your rafting adventure inquiries.">
-        <meta name="author" content="Oriana Hernandez">
-        <link rel="stylesheet" href="styles/rafting.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <img src="images/logo.png" alt="Logo">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="trips.html">Trips</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>Contact Us</h1>
-            <section class="company-info">
-                <p><strong>Address:</strong> 123 Main Street, Calabozo, CA 12345</p>
-                <p><strong>Phone:</strong> (555) 123-4567</p>
-                <p><strong>Email:</strong> contact@downtheriver.com</p>
-            </section>
-            <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63066.0734487248!2d-67.45645758442835!3d8.913984928475388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e7f63cccfa810bb%3A0x36250624c1080db0!2sCalabozo%202312%2C%20Gu%C3%A1rico%2C%20Venezuela!5e0!3m2!1ses-419!2sus!4v1720740125333!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | Down The River Rafting Company</title>
+    <meta name="description" content="Down The River Rafting Company Contact Page">
+    <meta name="author" content="Oriana Hernandez">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, velit ipsum! Deleniti, enim ab
+                    natus numquam</p>
             </div>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="purpose">Purpose:</label>
-                <select id="purpose" name="purpose" required>
-                    <option value="general">General Inquiry</option>
-                    <option value="booking">Booking</option>
-                    <option value="support">Support</option>
-                </select>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <label>
-                    <input type="checkbox" name="newsletter">
-                    Subscribe to our newsletter
-                </label>
-
-                <button type="submit">Send Message</button>
-            </form>
-            <section class="employees">
-                <h2>Meet Our Team</h2>
-                <div class="employee-grid">
-                    <figure>
-                        <img src="images/employee1.jpg" alt="Employee 1">
-                        <figcaption>John Doe - Lead Guide</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/employee2.jpg" alt="Employee 2">
-                        <figcaption>Jane Smith - Customer Support</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/employee3.jpg" alt="Employee 3">
-                        <figcaption>Jim Brown - Safety Officer</figcaption>
-                    </figure>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h2>Address:</h2>
+                            <p>123 Main Street, <br> Calabozo, <br> Guarico. </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h2>Phone:</h2>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h2>Email:</h2>
+                            <p>contact@downtheriver.com</p>
+                        </div>
+                    </div>
                 </div>
-            </section>
-        </main>
-        <footer>
-            <nav class="sociallinks">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.svg" alt="Facebook">
-                </a>
-                <a href="https://twitter.com">
-                    <img src="images/twitter.svg" alt="Twitter">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram.svg" alt="Instagram">
-                </a>
-            </nav>
-            <p>©2024 🌼 Rafting Site Document 🌼 Oriana Hernandez 🌼</p>
-            <p><a href="https://byui-cse.github.io/wdd130-ww-course/week05/prove-rafting-contactus.html">Wireframe</a></p>
-        </footer>
-    </body>
+                <div class="contactForm">
+                    <form>
+                        <h2>Send Message:</h2>
+                        <div class="inputBox">
+                            <input type="text" name="name" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="name" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required"></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="name" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="grid">
+                <div class="grid-1">
+                    <img src="images/employee2.jpg" alt="Employee 2" width="200">
+                    <h2>Jane Smith - Customer Support</h2>
+                </div>
+                <aside class="box">
+                    <img src="images/employee1.jpg" alt="Employee 1" width="200">
+                    <h2>John Doe - Lead Guide</h2>
+                </aside>
+            </div>
+        </section>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63066.0734487248!2d-67.45645758442835!3d8.913984928475388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e7f63cccfa810bb%3A0x36250624c1080db0!2sCalabozo%202312%2C%20Gu%C3%A1rico%2C%20Venezuela!5e0!3m2!1ses-419!2sus!4v1720740125333!5m2!1ses-419!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h3>Down The River Rafting Company</h3>
+            <a href="https://app.moqups.com/7w5devrPhxajavacOe8DtbUZNbBLVct5/view/page/ad64222d5">Wireframe</a>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam dolor voluptatibus dolore nulla accusantium!</p>
+            <ul class="sociallinks">
+                <li><a href="#"><img src="images/facebook.svg" alt=""></a></li>
+                <li><a href="#"><img src="images/instagram.svg" alt=""></a></li>
+                <li><a href="#"><img src="images/twitter.svg" alt=""></a></li>
+            </ul>
+    </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2024 Rafting Site Document. designed by <span>Oriana Hernandez | WDD 130</span></p>
+        </div>
+    </footer>
+</body>
 </html>
